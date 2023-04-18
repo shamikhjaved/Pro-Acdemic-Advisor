@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+#reviews{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#reviews .inner-section{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#reviews .inner-section .reviews-top .primary-heading{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 77px;
+    text-align: center;
+    color: #1471c1;
+}
+#reviews .inner-section .reviews-top .divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: transparent;
+}
+#reviews .inner-section .reviews-top .divider .hr1{
+    width: 30%;
+    height: 2px;
+    background-color: #8BB8E0;
+    border: none;
+    border-radius: 10px;
+}
+#reviews .inner-section .reviews-top .divider .hr2{
+    width: 5%;
+    height: 2px;
+    margin-left: 1rem;
+    background-color: #8BB8E0;
+    border: none;
+    border-radius: 10px;
+}
+.carousel{
+  display: flex;
+  align-items: center;
+}
+.carousel .carousel-item .content img{
+  height: 90px;
+  width: 90px;
+  border-radius: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: inline-block;
+}
+.carousel .carousel-item .content{
+  background-color: #fff;
+  text-align: center;
+  height: 350px;
+  width: 280px;
+  box-shadow: 0 15px 20px 5px rgba(0, 0, 0, 0.5);
+  padding: 35px;
+  position: relative;
+  z-index: 1;
+  border-radius: 20px;
+}
+.carousel .carousel-item .content::before{
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  background-color: #1471c1;
+  top: 0;
+  left: 28%;
+  z-index: -1;
+  border-radius: 0 0 50px 50px;
+}
+.carousel .carousel-item .content h1{
+  font-size: 22px;
+  font-weight: 800;
+  margin-top: 0;
+  color: #000;
+  text-transform: capitalize;
+}
+.carousel .carousel-item .content h2{
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: -1.2rem;
+  color: #000;
+  text-transform: uppercase;
+}
+.carousel .carousel-item .content p{
+  font-size: 12px;
+  font-weight: 400;
+  color:#000000;
+}
+.carousel .socials{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top:50px;
+  left: 5px;
+  z-index: 10;
+}
+.carousel .socials .fa-brands{
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #1471c1;
+  padding: 7px 7px;
+}
+
