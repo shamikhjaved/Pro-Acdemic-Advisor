@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pro Academic Website</title>
-    <link rel="stylesheet" href="style.css">
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./image/Website-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    
 </head>
 <body>
     <div id="home">
@@ -53,6 +56,13 @@
                     </div>
                   </div>
             </div>
+</div>
+    </div>
+    <div class="our-social-reviews">
+        <div class="inner-section-social-reviews">
+                <img src="image/Trust-Pilot-Review-5-e1677095356439.png" alt="" class="inner-section-social-reviews-img">
+                <img src="image/Community.png" alt="" id="things-removed-in-mbl-2" class="inner-section-social-reviews-img">
+                <img src="image/4.7-5-e1676664110186.png " alt="" class="inner-section-social-reviews-img">
         </div>
     </div>
 </body>

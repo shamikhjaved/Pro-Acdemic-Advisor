@@ -1,0 +1,343 @@
+@media (max-width: 425px) {
+  /*------------------------------------------------------------ Header -------------------------------------------------*/
+  #before-header {
+    height: 10vh;
+    width: 100%;
+  }
+  #before-header .inner-section {
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  #before-header .inner-section .right #things-removed-in-mbl {
+    display: none;
+  }
+  #before-header .inner-section .right #remove-extra {
+    margin: 0;
+    margin-top: 0.5rem;
+  }
+  #main-header .inner-section {
+    margin-left: 1rem;
+  }
+  #main-header .inner-section .right {
+    display: none;
+  }
+
+  /*------------------------------------------------------------ Index1 -------------------------------------------------*/
+
+  .home--inner-section {
+    flex-direction: column;
+    width: 320px;
+    padding-top: 2rem;
+    justify-content: center;
+  }
+  #home {
+    height: 160vh;
+    width: 100%;
+    margin-bottom: -8rem;
+  }
+  .home-left--para {
+    font-size: 15px;
+    width: 70%;
+  }
+  .home-left--primary-heading {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  .home-left--inner-section {
+    flex-direction: column;
+  }
+  .home-left--btn {
+    width: 50%;
+    flex-direction: column;
+  }
+  .home-left--btn .secondary-btn {
+    margin-top: 1rem;
+  }
+  .home-left--btn .primary-btn,
+  .secondary-btn {
+    font-size: 16px;
+  }
+  .icon-list--text {
+    font-size: 16px;
+  }
+  #home-right .inner-section--right .section--col {
+    height: 480px;
+    padding: 2rem 1rem 0px 1rem;
+    width: 320px;
+  }
+  #home-right .inner-section--right .section--col .primary-heading,
+  #home-right .inner-section--right .section--col .heading-span {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .inner-section--right .online-class--form #Form-submit {
+    font-size: 16px;
+  }
+
+  /*----------------------------------------------------------------    Sitejebbar     -------------------------------------------------- */
+  .our-social-reviews {
+    height: 30vh;
+  }
+  .our-social-reviews .inner-section-social-reviews {
+    flex-direction: column;
+    width: 360px;
+    height: 250px;
+  }
+  #things-removed-in-mbl-2 {
+    display: none;
+  }
+  .our-social-reviews
+    .inner-section-social-reviews
+    .inner-section-social-reviews-img {
+    width: 339px;
+    height: 75px;
+  }
+
+  /*----------------------------------------------------------------    How We Work     -------------------------------------------------- */
+  #how-work {
+    height: 120vh;
+  }
+  #how-work .inner-section {
+    flex-direction: column;
+    width: 320px;
+  }
+  #how-work .inner-section .box .para {
+    font-size: 14px;
+    margin-top: -2rem;
+  }
+
+  /*----------------------------------------------------------------    Features       -------------------------------------------------- */
+  #features {
+    height: 175vh;
+  }
+  #features .inner-section {
+    width: 320px;
+    flex-direction: column;
+  }
+  #features .main-heading {
+    font-size: 1.2rem;
+  }
+  #features .inner-section .box .primary-heading {
+    font-size: 18px;
+  }
+  #features .inner-section .box .para {
+    font-size: 14px;
+  }
+
+  /*----------------------------------------------------------------    subjectWeCover       -------------------------------------------------- */
+
+  #subject-we-cover {
+    height: 115vh;
+  }
+  .subject-we-cover--top .primary-heading {
+    font-size: 2rem;
+  }
+  #subject-we-cover .subject-we-cover--inner-section {
+    width: 320px;
+    flex-direction: column;
+    margin-left: -2.5rem;
+  }
+  #subject-we-cover .subject-we-cover--inner-section .icon-box {
+    margin-top: 1rem;
+  }
+  #subject-we-cover .subject-we-cover--inner-section .icon-box .icon-text {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  /*----------------------------------------------------------------    reviews       -------------------------------------------------- */
+
+  #reviews {
+    height: 7vh;
+  }
+  #reviews .inner-section .reviews-top .primary-heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .carousel .carousel-item {
+    margin-left: -3rem;
+  }
+  #reviews .inner-section {
+    width: 320px;
+  }
+  .carousel .socials {
+    display: none;
+  }
+
+  /*----------------------------------------------------------------    accordian       -------------------------------------------------- */
+
+  #accordian .title {
+    margin-left: 1.7rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+  #accordian .inner-section {
+    flex-direction: column;
+    width: 320px;
+  }
+  #accordian .faq .question .primary-heading {
+    font-size: 1rem;
+  }
+  #accordian .faq .question {
+    align-items: flex-start;
+  }
+  #accordian .faq .question .faq-icon {
+    height: 25px;
+  }
+  #accordian .faq .answer .para {
+    font-size: 14px;
+  }
+  #accordian .faq {
+    padding: 0;
+  }
+
+  /*----------------------------------------------------------------    Serbices Hero Section       -------------------------------------------------- */
+
+  #online-class {
+    height: 200vh;
+  }
+  .online-class-top .primary-heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .online-class-top .para {
+    font-size: 16px;
+    width: 90%;
+  }
+  #online-class .inner-section {
+    width: 320px;
+    flex-direction: column;
+  }
+  .inner-section .section--col {
+    height: 480px;
+    padding: 2rem;
+    margin-top: -3rem;
+  }
+  .inner-section .primary-heading {
+    font-size: 25px;
+  }
+  .inner-section .heading-span {
+    font-size: 25px;
+  }
+  .inner-section--right .inner-section--col {
+    margin-top: 2rem;
+  }
+  .inner-section--right .secondary-btn {
+    margin: 0;
+    margin-top: 1rem;
+    padding: 12px 40px;
+    font-size: 18px;
+  }
+  .inner-section--right .primary-btn {
+    padding: 12px 10px;
+    font-size: 18px;
+    display: block;
+  }
+
+  /*----------------------------------------------------------------    container       -------------------------------------------------- */
+
+  .container {
+    height: 380vh;
+  }
+  .container__top,
+  .container__bottom {
+    width: 320px;
+    flex-direction: column;
+  }
+
+  /*----------------------------------------------------------------    why-us       -------------------------------------------------- */
+
+  #why-us {
+    height: 260vh;
+  }
+  .why-us--top .primary-heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .why-us--top {
+    margin-left: 2rem;
+  }
+  .why-us--top .para {
+    font-size: 15px;
+  }
+  #why-us .why-us--inner-section {
+    flex-direction: column;
+    width: 350px;
+  }
+  .why-us--inner-section .left {
+    width: 100%;
+  }
+  .why-us--inner-section .right {
+    width: 100%;
+  }
+  .why-us--inner-section .left .icon-box .primary-heading {
+    font-size: 20px;
+  }
+  .why-us--inner-section--inner-section-left
+    .icon-box
+    .icon-with-text
+    .price-icon
+    .main-text {
+    font-size: 15px;
+  }
+  .why-us--inner-section--inner-section-right .main-text {
+    font-size: 14px;
+  }
+  .why-us--inner-section--inner-section-left .icon-box .icon-with-text {
+    margin-bottom: 1.3rem;
+  }
+  .why-us--inner-section--inner-section-bottom .why-us--bottom-btn {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  /*----------------------------------------------------------------    pricing       -------------------------------------------------- */
+
+  #pricing {
+    height: 150vh;
+    width: 100%;
+  }
+  #pricing .pricing-inner-section {
+    flex-direction: column;
+    width: 350px;
+  }
+  #pricing .pricing-inner-section .boxes {
+    margin: 0;
+    margin-top: 2rem;
+  }
+  #pricing .pricing-inner-section .boxes .middle .icon-box .main-text {
+    font-size: 14px;
+  }
+
+  /*----------------------------------------------------------------    Contact us       -------------------------------------------------- */
+
+  .contact-us .main-heading {
+    font-size: 3rem;
+  }
+  .contact-us .divider {
+    width: 45%;
+  }
+  .contact-us .inner-section {
+    width: 350px;
+    flex-direction: column;
+  }
+  .contact-us .inner-section .left {
+    width: 100%;
+    margin: 0;
+  }
+  .contact-us .inner-section .left .contact-form .form-tabs {
+    font-size: 16px;
+  }
+  .contact-us .inner-section .left .contact-form .form-tabs::placeholder {
+    font-size: 15px;
+  }
+  .contact-us .inner-section .left .contact-form #contact-form-Submit {
+    font-size: 20px;
+  }
+  .contact-us .inner-section .right {
+    width: 100%;
+    margin: 0;
+    margin-top: 1rem;
+  }
+}

@@ -22,6 +22,7 @@
       href="image/Website-logo.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="responsive.css">
   </head>
   <body>
     <div id="reviews">
@@ -56,12 +57,6 @@
             excepturi?
           </p>
         </div>
-        <p class="socials">
-          <i class="fa fa-brands fa-facebook-f"></i>
-          <i class="fa fa-brands fa-youtube"></i>
-          <i class="fa fa-brands fa-github"></i>
-          <i class="fa fa-brands fa-linkedin"></i>
-        </p>
       </a>
       <a class="carousel-item" href="#">
         <div class="content">
@@ -79,12 +74,6 @@
             excepturi?
           </p>
         </div>
-        <p class="socials">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-staylinked"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
-        </p>
       </a>
       <a class="carousel-item" href="#">
         <div class="content">
@@ -102,12 +91,6 @@
             excepturi?
           </p>
         </div>
-        <p class="socials">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-staylinked"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
-        </p>
       </a>
       <a class="carousel-item" href="#">
         <div class="content">
@@ -125,12 +108,6 @@
             excepturi?
           </p>
         </div>
-        <p class="socials">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-staylinked"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
-        </p>
       </a>
       <a class="carousel-item" href="#">
         <div class="content">
@@ -148,12 +125,6 @@
             excepturi?
           </p>
         </div>
-        <p class="socials">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-staylinked"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
-        </p>
       </a>
       <a class="carousel-item" href="#">
         <div class="content">
@@ -171,12 +142,6 @@
             excepturi?
           </p>
         </div>
-        <p class="socials">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-staylinked"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
-        </p>
       </a>
     </div>
   </body>

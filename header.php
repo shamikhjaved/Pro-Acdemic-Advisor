@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="image/Website-logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
     <div id="before-header">
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="right">
-                <div class="icon-box">
+                <div class="icon-box" id="things-removed-in-mbl">
                     <i class="fa-brands fa-whatsapp"></i>
                     <a href="https://wa.me/+441618182570" class="main-text">Whatsapp Now</a>
                 </div>
